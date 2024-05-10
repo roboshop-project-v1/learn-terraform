@@ -52,3 +52,10 @@ output "map_of_map_var_access" {
   value = var.map_of_map_variable.fruit.name
 
 }
+
+output "combination_var_access" {
+
+  value = "First Variable: ${var.map_of_map_variable.fruit.name} , Second Variable : ${var.map_variable.fruit}"
+
+}
+
