@@ -35,19 +35,19 @@ output "string_Var_access" {
 
 }
 
-output "string_Var_access" {
+output "list_Var_access" {
 
   value = var.list_of_variable[1]
 
 }
 
-output "map_variable" {
+output "map_var_access" {
 
   value = var.list_of_variable.fruit
 
 }
 
-output "map_of_map_variable" {
+output "map_of_map_var_access" {
 
   value = var.map_of_map_variable.fruit.name
 
