@@ -21,6 +21,7 @@
 
 variable "components" {
     default = {
+    user = ""
     mysql=""
     frontend = ""
     mongodb = ""
