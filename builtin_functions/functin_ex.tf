@@ -26,3 +26,8 @@ output "variable3" {
     value = lookup(var.fruits_details,"fruit10","what?")
   
 }
+
+output "variable4" {
+    value = try(var.fruits[5],0)
+  
+}
