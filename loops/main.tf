@@ -21,10 +21,10 @@
 
 variable "components" {
     default = {
-
-    frontend = "frontend"
-    mongodb = "mongodb"
-    catalogue = "catalogue"
+    mysql=""
+    frontend = ""
+    mongodb = ""
+    catalogue = ""
 
     }
   
