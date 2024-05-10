@@ -43,7 +43,7 @@ output "list_Var_access" {
 
 output "map_var_access" {
 
-  value = var.list_of_variable.fruit
+  value = var.map_variable.fruit
 
 }
 
