@@ -1,6 +1,6 @@
 
 variable "components" {
-    default = ["frontend","mongodb"]
+    default = ["catalogue","frontend","mongodb"]
   
 }
 
