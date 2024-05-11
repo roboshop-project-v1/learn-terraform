@@ -3,3 +3,7 @@ data "aws_ami_ids" "ami" {
     owners = ["973714476881"]
 }
 
+output "name" {
+    value = data.aws_ami_ids.ami
+  
+}
